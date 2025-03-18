@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.721e4e38.css",
+    "main.js": "/static/js/main.1aaa7457.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Qualy.otf": "/static/media/Qualy.ba86ff2574ee6aba1b54.otf",
+    "static/media/advisor-profile.jpeg": "/static/media/advisor-profile.6f7932ac3686c745c5f5.jpeg",
+    "index.html": "/index.html",
+    "main.721e4e38.css.map": "/static/css/main.721e4e38.css.map",
+    "main.1aaa7457.js.map": "/static/js/main.1aaa7457.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.721e4e38.css",
+    "static/js/main.1aaa7457.js"
+  ]
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Email Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+
+    <style type="text/css">
+      body{
+          font-family: 'Roboto';
+          font-size: '15px';
+      }
+    </style>
+  </head>
+  <body style="background-color:#edecec;">
+   
+    <div class="invoice" style="max-width: 1000px;margin: 0 auto;background-color: #fff;padding: 20px;margin-top: 50px;margin-bottom: 50px;">
+      <table border="0" cellspacing="0" cellpadding="0" class="table" style="width:100%;">
+        <thead>
+          <tr>
+            <th colspan="3" style="text-decoration: underline;"><img src="<%=logo%>" alt="logo"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="3" style="padding-top: 60px;padding-bottom: 20px;">Hi <%=name%>,</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;width: 100%;">You have an incoming chat. </td>
+          </tr>
+         
+         
+        </tbody>
+        
+      </table>
+
+      <table style="width:100%; border: 1px solid #fff;margin-top: 50px;border-collapse: collapse;" class="table">
+        <tbody>
+        <tr>
+          <td>
+            <p>Client <%=client%> wants to chat with you, you are offline now. Please go online and connect.</p>
+          </td>
+        </tr>
+        
+
+        </tbody>
+      </table>
+
+      <table border="0" cellspacing="0" cellpadding="0" class="table" style="width:100%;background-color: #fff;">
+        <tbody>
+          <tr>
+            <td style="padding-top: 50px;">Thank You.</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;width: 100%;"><b>The Confideas Team</b></td>
+          </tr>
+         
+         
+        </tbody>
+        
+      </table>
+
+
+      
+    </div>
+    
+  </body>
+</html>
