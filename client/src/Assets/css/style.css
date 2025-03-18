@@ -244,7 +244,17 @@ body{
    left: -40px; 
    bottom: 0;
 } */
-
+::-webkit-scrollbar-thumb
+{
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #da4889;
+}
+::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #F3F3F3;
+}
 #ChatContainer .chatcontainer::-webkit-scrollbar
 {
 	width: 6px;

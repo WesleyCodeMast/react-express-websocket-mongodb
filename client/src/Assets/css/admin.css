@@ -1,0 +1,648 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+a:hover{
+  text-decoration: none !important;
+}
+.bg-red-700{
+  background: #b02a66;
+}
+.subAdjust .pl-4{
+  padding-left: 0px !important;
+}
+.p-20 {
+  padding-top: 90px;
+}
+.p-35 {
+  padding-top: 35px;
+}
+.bg-grey{
+  background: #808080;
+}
+.absent{
+  background: #ddd;
+  border-radius: 20px;
+  margin-left: -1px;
+}
+.btn-default{
+  background: #c8c8c8 !important;
+  font-weight: 500 !important;
+  padding: 10px 20px !important;
+  color: #222 !important;
+}
+.btn-default:hover{
+  color: #222 !important;
+}
+.collapse {
+  visibility: unset;
+}
+.sideNav ul li{
+  border-bottom: 1px dashed #cfc3c3;
+}
+.sideNav ul li #accordionMenu ul li:last-child{
+  border-bottom: none;
+}
+.sideNav ul li a i{
+  min-width: 24px;
+}
+.nav-tabs .nav-link{
+  background: #fff;
+  color: #111;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-color: #ccc;
+}
+.nav-tabs .nav-item{
+  margin-left: 10px;
+}
+.nav-tabs .nav-item:first-child{
+  margin-left: 0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #b7292d;
+  border-color: #b7292d;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: #ccc;
+}
+.min600{
+  min-height: 625px;
+}
+.max50Percent{
+  max-width: 570px;
+}
+.padding-top80{
+  padding-top: 80px;
+  padding-left: 40px !important;
+}
+.mt-77{
+  margin-top: 77px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.min-150{
+  min-width: 150px;
+}
+.max193{
+  max-width: 235px;
+}
+.react-datepicker__input-container input{
+  border-color: #dfe2e6;
+  border-radius: 6px;
+  height: 40px;
+  font-size: 15px;
+  min-width: 235px;
+}
+.min600 input::placeholder{
+  font-size: 14px;
+  color: #444;
+}
+.bg-hotel-maroon{
+  background: #e7e7e7;
+}
+.padding-top80 .bg-hotel-maroon, .padding-top80 .bg-hotel-maroon:hover, .padding-top80 .bg-hotel-maroon:focus{
+  background: #b02a66;
+}
+.padding-top80 .nav-tabs .nav-link.active{
+  background-color: #b02a66;
+  border-color: #b02a66;
+}
+.usertype{
+  margin-left: -15px;
+  margin-bottom: 20px;
+}
+.usertype .radio label {
+  padding-left:0
+ }
+ .usertype .radio label input {
+  opacity:0
+ }
+ .check-active {
+  background-color:#b02a66;
+  border:1px solid #b02a66;
+  border-radius:4px;
+  color:white;
+  cursor:pointer;
+  font-size:13px;
+  line-height:22px;
+  padding:9px 20px;
+  font-weight: bold;
+ } 
+
+ .check-inactive {
+  background-color:#fff;
+  border:1px solid #ccc;
+  border-radius:4px;
+  color:#000;
+  cursor:pointer;
+  font-size:13px;
+  line-height:22px;
+  padding:9px 20px;
+  font-weight: bold;
+ } 
+
+ .multiImages #file[type="file"] {
+	display: none;
+}
+.multiImages .label{
+  padding: 8px 20px;
+  max-width: 215px;
+  background-color: #ff9100;
+  color: white;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.ck-editor__editable_inline {
+  min-height: 330px;
+}
+.privacy-content-page .ck-editor__editable_inline {
+  min-height: 500px;
+}
+.imageResult.result {
+  display: inline-block;
+}
+.imageResult.result img{
+  max-width: 200px;
+  float: left;
+  margin-left: 20px;
+  border: 1px solid #e6e8eb;
+  padding: 3px;
+}
+.imageResult.result img:first-child{
+  margin-left: 0;
+}
+.multiImages .result{
+  min-height: 100%;
+  max-height: auto;
+  width: 100%;
+  background-color: #272c34;
+  margin-top:1rem ;
+   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;  
+}
+.multiImages img{
+  width: 320px;
+  height: 180px;
+  object-fit: cover;
+  padding: 0.75rem; 
+}
+.controlDate .react-datepicker__input-container input{
+  min-width: 215px;
+}
+.setReactSelect{
+  min-width: 945px;
+}
+.setReactSelect .css-1s2u09g-control{
+  height: 40px;
+  margin-right: 15px;
+}
+table tbody tr td{
+  color: #000;
+}
+.rounded-lg{
+  border-radius: .25rem!important;
+}
+.upload-logo-admin img {
+  max-width: 200px;
+}
+.controlEnquiryDate .react-datepicker__input-container input{
+  min-width: unset;
+  max-width: 175px;
+  height: 38px;
+}
+#enquiryType{
+  height: 38px;
+}
+.padding-top80 .rs-picker-default .rs-picker-toggle.rs-btn{
+  height: 38px;
+  font-size: 15px
+}
+.padding-top80 .rs-picker-toggle .rs-picker-toggle-placeholder{
+  color: #444;
+}
+.bigTable .table td, .table th{
+  font-size: 13px;
+}
+.footerAdmin{
+  background: #fcfcfc;
+  border-top: 1px solid #fcfcfc;
+}
+.md\:ml-64{
+  margin-left: 15rem !important;
+}
+.backlines{
+  text-align: center;
+  font-weight: bold;
+}
+.backlines:before{
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 1px;
+  background: #ccc;
+  margin-left: -150px;
+  margin-top: 12px;
+}
+.backlines:after{
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 1px;
+  background: #ccc;
+  margin-left: 7px;
+  margin-top: 12px;
+}
+.logGoogle{
+  background: rgb(234, 67, 53) !important;
+  height: 31px !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  margin-top: -5px;
+  font-weight: bold !important;
+  font-size: 13.5px !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+.logGoogle:focus{
+  outline: none !important;
+}
+.typeofUser{
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px 7px;
+  background: #9097a1;
+  border-radius: 6px;
+  display: block;
+  min-width: 73px;
+}
+.padLeft3{
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.text-red{
+  color: red;
+}
+.table td, .table th{
+  vertical-align: middle;
+}
+.lh40{
+  line-height: 35px !important;
+}
+.raisedTC h2{
+  display: none;
+}
+.bg-admin-yellow{
+  background: #c8e7f1;
+}
+.bg-admin-blue{
+  background: #E2F0EC;
+}
+.bg-admin-pink{
+  background: #F5E5ED;
+}
+.bg-admin-purple{
+  background: #E7DEEF;
+}
+.bg-purple, .bg-purple-900{
+  background: #a5084e;
+}
+.text-regal-blue, a:hover{
+  color: #960036;
+}
+.relative.bg-default-skin h1, .relative.bg-default-skin h2, .relative.bg-default-skin h3, .relative.bg-default-skin h4, .relative.bg-default-skin h5, .relative.bg-default-skin h6, .relative.bg-default-skin p, .relative.bg-default-skin a, .relative.bg-default-skin button, .relative.bg-default-skin li, .relative.bg-default-skin div, .relative.bg-default-skin td, .relative.bg-default-skin th{
+  font-family: 'Noto Sans', sans-serif;
+}
+.relative.bg-default-skin .bg-success, .relative.bg-default-skin .bg-package-maroon {
+  background-color: #ffd04a !important;
+  color: #222 !important;
+}
+.logo-Text{
+  padding-bottom: 20px;
+}
+.advisor-informa .nav-tabs .nav-link{
+  padding: 10px 24px;
+  font-size: 14px;
+}
+.payStatus button{
+  background: #ad004d !important;
+  border-color: #ad004d !important;
+  min-width: 85px;
+  cursor: not-allowed;
+}
+#tab-service .serv h3{
+  background: #222;
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#tab-service .serv{
+  margin-bottom: 20px;
+}
+.GovtID {
+  background-color: #fff;
+  padding: 8px;
+  margin-bottom: 0;
+  border-radius: 4px;
+  margin-top: 0;
+  border: 1px solid #e5e5e5;
+}
+.GovtID img {
+  max-width: 200px;
+}
+.CertificateP {
+  max-width: 100%;
+  background-color: #fff;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  height: 162px;
+}
+.CertificateP .CertificatePremove {
+  float: right;
+}
+.CertificateP img {
+  max-width: 65% !important;
+  margin: 0 auto;
+}
+.downloadbtnicon {
+  background: #9d2058;
+  color: #fff;
+  padding: 4px 7px;
+  border-radius: 4px;
+}
+@media (max-width: 767px){
+  .GovtID{
+    max-width: 100% !important;
+  }
+  .GovtID img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .CertificateP img {
+    max-width: 100% !important;
+    max-height: 100px;
+    margin: 0 auto;
+  }
+  .CertificateP .CertificatePremove {
+    float: right;
+    margin-bottom: 5px;
+  }  
+.md\:ml-64{
+  margin-left: 0rem !important;
+}
+.hidden-xs{
+  display: none;
+}
+.resNavbar{
+  background: #f4f4f4 !important;
+  margin: 0 !important;
+}
+.resNavbar .colllapbtn{
+  background: #b02a66 !important;
+    height: 40px !important;
+    color: #fff !important;
+    opacity: 1;
+    position: relative;
+    top: -6px;
+}
+.latestUsers h2 {
+  font-size: 18px;
+}
+.latestUsers table tbody tr td button {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+table tbody tr td {
+  font-size: 12px;
+  padding: 5px !important;
+}
+table thead tr th {
+  font-size: 12px;
+  padding: 5px !important;
+}
+.grid {
+  display: block;
+}
+.padding-top80 {
+  padding-top: 25px;
+}
+.gridstyle {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.react-datepicker__input-container input {
+  min-width: 160px !important;
+  width: 160px !important;
+}
+.gridstyle .mt-50 {
+  margin-top: 20px;
+}
+.gridstyle .mt-77 {
+  margin-top: 20px;
+}
+.gridstyle .mt-77 a{
+  width: 100%;
+}
+.bg-hotel-maroon {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.Chambal-Dates .flex {
+  display: initial;
+}
+.Chambal-Dates .flex .react-datepicker__input-container input {
+  width: 100% !important;
+  margin-bottom: 10px;
+}
+.Chambal-Dates .flex button {
+  width: 100% !important;
+  margin-left: 0px !important;
+  margin-bottom: 10px;
+}
+.max193 {
+  max-width: 100%;
+}
+.mt-50 {
+  margin-top: 0px;
+}
+.controlEnquiryDate .react-datepicker__input-container input {
+  height: 42px;
+  width: 100% !important;
+  margin-bottom: 10px;
+}
+.hotel .mt-4 a {
+  margin-top: -55px;
+}
+.min-150 {
+  min-width: auto;
+}
+.margin {
+  margin-top: 0;
+}
+.pack .bg-success {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.formstyle div input {
+  margin-bottom: 10px;
+}
+.formstyle div select {
+  margin-bottom: 10px;
+}
+.dropdown-menu.show a {
+  font-size: 13px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  display: inline-block;
+  width: 100%;
+}
+.dropdown.show button {
+  font-size: 13px;
+  width: 100%;
+  padding: 9px !important;
+}
+.dropdown .bg-danger {
+  font-size: 12px;
+  padding: 9px;
+}
+.setReactSelect {
+  min-width: auto;
+}
+#file_input {
+  width: 100%;
+}
+.AmenityStatus .flex {
+  display: inline-block;
+  width: 100%;
+}
+.setReactSelect .css-1s2u09g-control {
+  height: auto;
+  margin-right: 0;
+  margin-top: 10px;
+}
+.AmenityStatus .flex div button {
+  width: 100%;
+  margin-top: 10px;
+}
+.AmenityStatus .status {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+.amenities .bg-success {
+  width: 100%;
+}
+.Package-Categories .mt-4 a.bg-success {
+  width: 100%;
+}
+.Package-Categories h3 {
+  margin-top: 15px !important;
+  display: inline-block;
+  width: 100%;
+}
+.indianForm .table tbody tr td {
+  min-width: 100px;
+}
+.CurrentB .rs-picker-toggle-wrapper {
+  margin-bottom: 10px;
+}
+.logo-Text img{
+  max-width: 180px;
+}
+.clear{
+  clear: both;
+}
+.relative.bg-default-skin .bg-success, .relative.bg-default-skin .bg-package-maroon{
+  padding: 6px 20px !important;
+}
+.advisor-informa .nav-tabs .nav-link {
+  padding: 8px;
+  font-size: 11px;
+}
+.sideToggle-button{
+  color: #fff !important;
+  background: #b02a66 !important;
+  padding: 8px 18px !important;
+}
+.logo-Text {
+  padding-bottom: 5px;
+}
+}
+@media (min-width: 768px) and (max-width: 1160px){
+  .CertificateP img {
+    max-width: 100% !important;
+  }
+  .CertificateP .CertificatePremove {
+    float: right;
+    margin-bottom: 8px;
+  }
+  .CertificateP {
+    height: 150px !important;
+  }
+.min600 .padding-top80 form.grid{
+  display: block;
+}
+.min600 .padding-top80 form.grid .form-group {
+  float: left;
+  width: 48%;
+  margin-right: 10px;
+}
+.min600 .padding-top80 .nav-tabs .nav-link{
+  padding: 8px 12px;
+  font-size: 13px;
+}
+.hide-tab{
+  display: none;
+}
+.min600 .padding-top80 .col-xs-6 {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+}
+.advisor-info-page .padding-top80 .nav-tabs .nav-link{
+  padding: 7px 9px !important;
+  font-size: 13px !important;
+}
+.advisor-informa ul.nav-tabs li.nav-item{
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+.advisor-informa ul.nav-tabs li.nav-item:first-child{
+  margin-left: 0px !important;
+}
+.add-review-page .wrapper{
+  margin-top: -10px;
+  margin-left: -10px;
+  border: none !important;
+  font-size: 13px !important;
+  z-index: 99999 !important;
+  background-color: white !important;
+}
+.add-review-page input:focus{
+  box-shadow: none;
+}
+.gb-settings .grid{
+  display: block;
+}
+.my-col-xs-12{
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+}
+input[type="date"]{
+  -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 42px;
+    display: block;
+    width: 100%;
+}
